@@ -6,7 +6,7 @@ class Solution:
         c = int(a, 2) + int(b, 2)
         
         if c == 0:
-            return str(0)
+            output = str(0)
 
         while c > 0:
             
